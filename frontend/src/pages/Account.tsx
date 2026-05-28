@@ -196,6 +196,14 @@ export default function Account() {
             <div className="mt-6 pt-6 border-t border-border space-y-2">
               <Button
                 variant="outline"
+                onClick={() => navigate("/register")}
+                className="w-full cyber-btn-outline h-10"
+              >
+                <UserPlus className="w-4 h-4 mr-2" />
+                添加新用户
+              </Button>
+              <Button
+                variant="outline"
                 onClick={handleSwitchAccount}
                 className="w-full cyber-btn-outline h-10"
               >

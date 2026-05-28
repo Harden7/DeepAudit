@@ -113,26 +113,23 @@ export default function Login() {
       <div className="absolute top-4 left-4 text-sm font-mono text-muted-foreground z-30 space-y-1">
         <div className="flex items-center gap-2">
           <Terminal className="w-4 h-4" />
-          <span>SYS_ID: 0x84F2</span>
+          
         </div>
         <div className="flex items-center gap-2">
           <Shield className="w-4 h-4" />
-          <span>ENCRYPT: AES-256</span>
+          
         </div>
         <div className="flex items-center gap-2">
           <Fingerprint className="w-4 h-4" />
-          <span>AUTH: READY</span>
+         
         </div>
       </div>
 
       <div className="absolute top-4 right-4 text-sm font-mono text-muted-foreground text-right z-30 space-y-1">
-        <div>SECURE_CONN: TRUE</div>
-        <div>PORT: 443</div>
-        <div>TLS: 1.3</div>
       </div>
 
       <div className="absolute bottom-4 left-4 text-sm font-mono text-muted-foreground z-30">
-        DEEPAUDIT_AUTH_v3
+
       </div>
 
       <div className="absolute bottom-4 right-4 text-sm font-mono text-muted-foreground z-30">
@@ -155,11 +152,11 @@ export default function Login() {
             className="text-3xl font-bold tracking-wider mb-2 font-mono"
             style={{ textShadow: "0 0 30px rgba(255,107,44,0.5), 0 0 60px rgba(255,107,44,0.3)" }}
           >
-            <span className="text-primary">DEEP</span>
-            <span className="text-foreground">AUDIT</span>
+            <span className="text-primary">供应链安全</span>
+            <span className="text-foreground">检测系统</span>
           </div>
           <p className="text-base font-mono text-muted-foreground">
-            // Autonomous Security Agent
+            
           </p>
         </div>
 
@@ -259,7 +256,7 @@ export default function Login() {
             </form>
 
             {/* Footer */}
-            <div className="mt-6 pt-5 border-t border-border text-center">
+            {/* <div className="mt-6 pt-5 border-t border-border text-center">
               <p className="text-base font-mono text-muted-foreground">
                 还没有账号？{" "}
                 <span
@@ -269,14 +266,13 @@ export default function Login() {
                   立即注册
                 </span>
               </p>
-            </div>
+            </div>*/}
           </div>
         </div>
 
         {/* Version Info */}
         <div className="mt-6 text-center">
           <p className="font-mono text-sm text-muted-foreground uppercase">
-            Version {version} · Secure Connection
           </p>
         </div>
       </div>
